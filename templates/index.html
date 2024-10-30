@@ -22,15 +22,11 @@
             <hr>
     
             <form action="/predict" method="POST">
-                <div class="form-group">
-                <label>Car Name : </label>&emsp;&emsp;<input type="text" name="car_Name" placeholder="Enter Car Brand Name"/><br><br></div>
-                <div class="form-group">
-                <label>Purchased Year :  </label><input type="text" name="year" placeholder = "Enter Car Purchased Year"/><br><br></div>
-                <div class="form-group"></div>
-                <label>Present Price : </label><input type="text" name="present_Price" placeholder="Enter Price in Lakhs" /><br><br></div>
-                <div class="form-group"></div>
-                <label>Kms Driven  :  </label><input type="text" name="kms_Driven"  placeholder="Enter Car Driven Kms"/><br><br></div>
-                <div class="form-group"></div>
+
+                <label>Car Name : </label>&emsp;&emsp;<input type="text" name="car_Name" placeholder="Enter Car Brand Name"/><br><br>
+                <label>Purchased Year :  </label><input type="text" name="year" placeholder = "Enter Car Purchased Year"/><br><br>
+                <label>Present Price : </label><input type="text" name="present_Price" placeholder="Enter Price in Lakhs" /><br><br>
+                <label>Kms Driven  :  </label><input type="text" name="kms_Driven"  placeholder="Enter Car Driven Kms"/><br><br>
                 <label>Fuel Type : </label>
                         <select name="Fuel_Type" >
                             <option value="">Select Car Fuel Type</option>
@@ -38,24 +34,23 @@
                             <option value=1>Petrol</option>
                             <option value=2>CNG</option>
                         </select>
-                <br><br></div>
-                <div class="form-group"></div>
+                <br><br>
                 <label>Seller Type : </label>
                         <select name="Seller_Type">
                             <option value="">Select Car Seller Type</option>
                             <option value=0>Individual</option>
                             <option value=1>Dealer</option>
                         </select>
-                <br><br></div>
-                <div class="form-group"></div>
+                <br><br>
+               
                 <label>Transmission  :  </label>
                         <select name="Transmission">
                             <option value=>Select Car Transmission Type</option>
                             <option value=0>Manual</option>
                             <option value=1>Automatic</option>
                         </select>
-                <br><br></div>
-                <div class="form-group"></div>
+                <br><br>
+    
                 <label>Owner : </label>&emsp;
                         <select name="Owner">
                             <option value=>Select Car Owner</option>
@@ -64,7 +59,7 @@
                             <option value=2>2</option>
                             <option value=3>3</option>
                         </select>
-                <br><br><br></div>
+                <br><br><br>
                 <button type="submit"><b>Predict<b></button>
                 <br>
                 <center>
